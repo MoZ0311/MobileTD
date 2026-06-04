@@ -1,0 +1,5 @@
+.unity-button {
+    width: 460px;
+    aspect-ratio: 1.5;
+    background-color: rgba(0, 188, 212, 0.91);
+}
