@@ -1,0 +1,6 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: 1; justify-content: center; align-items: center;">
+        <ui:Label name="SpeedLabel" text="速度 : 0.00" style="unity-text-align: middle-center; font-size: 50px;"/>
+        <ui:Label name="HeadingLabel" text="方角 : 0" style="unity-text-align: middle-center; font-size: 50px;"/>
+    </ui:VisualElement>
+</ui:UXML>
