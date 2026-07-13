@@ -509,8 +509,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8f8256d258b60044a46e5c4ff12a806, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SiegePlayer
-  crashSpeed: 0
-  attackFlickDistance: -100
+  phoneUIController: {fileID: 1105765481}
+  crashAcceleration: 0.5
+  attackFlickDistance: -500
 --- !u!114 &645408954
 MonoBehaviour:
   m_ObjectHideFlags: 0
