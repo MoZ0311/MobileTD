@@ -6,7 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/_Projects/Scenes/PhoneScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/_Projects/Scenes/TabletScene.unity
+    guid: 7f4dbb6e78e32ce4c80b9a44dc85c09b
   m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: cdbca3c9741b76a408d5e3386598fc64, type: 2}
+    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 30ca5d73f36c2f14e8ac2a3d14c7af1f, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 26a90b3f0071a074fa169f97f2da9688, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 96030a6db4e6d7747b768c444272a5e2, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: aef5f59f73e5c154e8b6856993d31195, type: 2}
