@@ -1,7 +1,8 @@
 <ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <Style src="project://database/Assets/_Projects/UI_Resources/Tablet/TabletUSS.uss?fileID=7433441132597879392&amp;guid=57732c4f2d77517409d17f4aa87ae5f7&amp;type=3#TabletUSS"/>
     <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 223, 255, 0.251); align-items: center; justify-content: center;">
-        <ui:VisualElement style="aspect-ratio: 1; width: 704px; background-image: url(&quot;project://database/Assets/_Projects/Images/crosshair.png?fileID=2800000&amp;guid=7a6e2a72c53c1cc4e93f5923b2e07279&amp;type=3#crosshair&quot;); -unity-background-image-tint-color: rgba(0, 223, 255, 0.784);"/>
+        <ui:Label text="認識中!!" style="position: absolute; top: 0; left: 0; right: auto; bottom: auto; font-size: 128px; display: flex;"/>
+        <ui:VisualElement style="aspect-ratio: 1; width: 400px; background-image: url(&quot;project://database/Assets/_Projects/Images/crosshair.png?fileID=2800000&amp;guid=7a6e2a72c53c1cc4e93f5923b2e07279&amp;type=3#crosshair&quot;); -unity-background-image-tint-color: rgba(0, 223, 255, 0.784);"/>
         <ui:VisualElement style="justify-content: space-between; position: absolute; top: auto; left: 0; right: 0; bottom: 0; flex-direction: row;">
             <ui:Button name="LeftButton"/>
             <ui:Button name="RightButton"/>
