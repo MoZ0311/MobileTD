@@ -1,0 +1,9 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement picking-mode="Ignore" style="flex-grow: 1; aspect-ratio: 0.4864865;">
+        <ui:VisualElement style="flex-direction: row; height: 5%;">
+            <ui:Label text="デバック用ログ" style="font-size: 50px; -unity-text-align: middle-center;"/>
+            <ui:Button name="ClearButton" text="Clear" style="flex-grow: 1; font-size: 50px; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;"/>
+        </ui:VisualElement>
+        <ui:Label name="LogLabel" text="" picking-mode="Ignore" style="font-size: 50px; height: 95%;"/>
+    </ui:VisualElement>
+</ui:UXML>
