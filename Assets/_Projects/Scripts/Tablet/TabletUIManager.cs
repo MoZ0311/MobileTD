@@ -11,8 +11,11 @@ public class TabletUIManager : MonoBehaviour
 
     const string isAttacking = "攻撃中";
 
+    TabletShoot tabletShoot;
+
     void Awake()
     {
+        tabletShoot = FindAnyObjectByType<TabletShoot>();
         VisualElement root = tabletUI.rootVisualElement;
         leftButton = root.Q<Button>(LeftButton);
         rightButton = root.Q<Button>(RightButton);
@@ -48,10 +51,12 @@ public class TabletUIManager : MonoBehaviour
     void OnButtonDown(PointerDownEvent e, Button button)
     {
         button.text = isAttacking;
+        tabletShoot.isShooting = true;
     }
 
     void OnButtonUp(PointerUpEvent e, Button button)
     {
         button.text = string.Empty;
+        tabletShoot.isShooting = false;
     }
 }
