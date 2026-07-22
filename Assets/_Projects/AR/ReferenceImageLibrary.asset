@@ -18,12 +18,12 @@ MonoBehaviour:
     m_Storage: []
   m_Images:
   - m_SerializedGuid:
-      m_GuidLow: 5610137800174834671
-      m_GuidHigh: 15936646020536738459
+      m_GuidLow: 5653044439993706825
+      m_GuidHigh: 15316092217664434341
     m_SerializedTextureGuid:
-      m_GuidLow: 17493181852381973384
-      m_GuidHigh: 1776020661960499193
-    m_Size: {x: 0.03, y: 0.03498}
+      m_GuidLow: 14025353510310186367
+      m_GuidHigh: 13448920073463251241
+    m_Size: {x: 0.05, y: 0.0735}
     m_SpecifySize: 1
-    m_Name: monster
+    m_Name: tower
     m_Texture: {fileID: 0}

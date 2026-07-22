@@ -1,0 +1,5 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Label text="Transform" name="Transform" style="font-size: 80px; -unity-font-style: bold;"/>
+    <ui:Label text="Log&#10;" name="Log" style="font-size: 80px; -unity-font-style: bold;"/>
+    <ui:Button text="角です" style="bottom: 72px; position: absolute; aspect-ratio: 1.5; width: 512px; font-size: 104px; -unity-font-definition: url(&quot;project://database/Assets/_Projects/UI_Resources/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&amp;guid=bfcbe67dc01e75f4fb8044f9acf12979&amp;type=3#NotInter-Regular&quot;); -unity-font-style: bold; border-top-left-radius: 32px; border-top-right-radius: 32px; border-bottom-right-radius: 32px; border-bottom-left-radius: 32px; align-self: center;"/>
+</ui:UXML>
